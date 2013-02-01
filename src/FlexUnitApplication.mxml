@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is an auto generated file and is not intended for modification. -->
+
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   xmlns:flexui="flexunit.flexui.*"
+			   minWidth="955" minHeight="600" creationComplete="onCreationComplete()">
+	<fx:Script>
+		<![CDATA[
+			import test.unittest.utils.SOAPUtilTest;
+			import test.unittest.rpc.XMLAServiceTest;
+			import test.unittest.parts.XMLARestrictionsPartTest;
+			import test.unittest.parts.XMLAPropertyPartTest;
+			import test.unittest.parts.XMLAPartTest;
+			import test.unittest.parts.XMLAPartFactoryTest;
+			import test.unittest.parts.MockolateXMLAPartTest;
+			import test.unittest.context.restrictions.DimensionRestrictionContextTest;
+			import test.unittest.context.restrictions.CubeRestrictionContextTest;
+			import test.unittest.context.properties.ExecutePropertyContextTest;
+			import test.unittest.context.properties.DiscoverPropertyContextTest;
+			import test.unittest.context.discovertype.DiscoverTypeContextTest;
+			import test.unittest.context.commands.StatementCommandContextTest;
+			import test.unittest.context.BaseRestrictionsContextTest;
+			import test.unittest.context.BasePropertyContextTest;
+			import test.unittest.context.BaseCommandContextTest;
+			import test.unittest.context.AbstractContextTest;
+			import test.integrationtest.ExecuteBuilderIntegrationTest;
+			import test.integrationtest.DiscoverBuilderIntegrationTest;
+			
+			public function currentRunTestSuite():Array
+			{
+				var testsToRun:Array = new Array();
+				testsToRun.push(test.integrationtest.DiscoverBuilderIntegrationTest);
+				testsToRun.push(test.integrationtest.ExecuteBuilderIntegrationTest);
+				testsToRun.push(test.unittest.context.AbstractContextTest);
+				testsToRun.push(test.unittest.context.BaseCommandContextTest);
+				testsToRun.push(test.unittest.context.BasePropertyContextTest);
+				testsToRun.push(test.unittest.context.BaseRestrictionsContextTest);
+				testsToRun.push(test.unittest.context.commands.StatementCommandContextTest);
+				testsToRun.push(test.unittest.context.discovertype.DiscoverTypeContextTest);
+				testsToRun.push(test.unittest.context.properties.DiscoverPropertyContextTest);
+				testsToRun.push(test.unittest.context.properties.ExecutePropertyContextTest);
+				testsToRun.push(test.unittest.context.restrictions.CubeRestrictionContextTest);
+				testsToRun.push(test.unittest.context.restrictions.DimensionRestrictionContextTest);
+				testsToRun.push(test.unittest.parts.MockolateXMLAPartTest);
+				testsToRun.push(test.unittest.parts.XMLAPartFactoryTest);
+				testsToRun.push(test.unittest.parts.XMLAPartTest);
+				testsToRun.push(test.unittest.parts.XMLAPropertyPartTest);
+				testsToRun.push(test.unittest.parts.XMLARestrictionsPartTest);
+				testsToRun.push(test.unittest.rpc.XMLAServiceTest);
+				testsToRun.push(test.unittest.utils.SOAPUtilTest);
+				return testsToRun;
+			}
+			
+			
+			private function onCreationComplete():void
+			{
+				testRunner.runWithFlexUnit4Runner(currentRunTestSuite(), "XMLALibrary");
+			}
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<flexui:FlexUnitTestRunnerUI id="testRunner" portNumber="8765">
+	</flexui:FlexUnitTestRunnerUI>
+</s:Application>

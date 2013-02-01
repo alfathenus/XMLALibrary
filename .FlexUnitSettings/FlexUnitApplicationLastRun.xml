@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="" >
+<testsuite  name="Default Test Suite" project="XMLALibrary">
+<testsuite name="test.integrationtest:DiscoverBuilderIntegrationTest" type="testcaseclass"/>
+<testsuite name="test.integrationtest:ExecuteBuilderIntegrationTest" type="testcaseclass"/>
+<testsuite name="test.unittest.context:AbstractContextTest" type="testcaseclass"/>
+<testsuite name="test.unittest.context:BaseCommandContextTest" type="testcaseclass"/>
+<testsuite name="test.unittest.context:BasePropertyContextTest" type="testcaseclass"/>
+<testsuite name="test.unittest.context:BaseRestrictionsContextTest" type="testcaseclass"/>
+<testsuite name="test.unittest.context.commands:StatementCommandContextTest" type="testcaseclass"/>
+<testsuite name="test.unittest.context.discovertype:DiscoverTypeContextTest" type="testcaseclass"/>
+<testsuite name="test.unittest.context.properties:DiscoverPropertyContextTest" type="testcaseclass"/>
+<testsuite name="test.unittest.context.properties:ExecutePropertyContextTest" type="testcaseclass"/>
+<testsuite name="test.unittest.context.restrictions:CubeRestrictionContextTest" type="testcaseclass"/>
+<testsuite name="test.unittest.context.restrictions:DimensionRestrictionContextTest" type="testcaseclass"/>
+<testsuite name="test.unittest.parts:MockolateXMLAPartTest" type="testcaseclass"/>
+<testsuite name="test.unittest.parts:XMLAPartFactoryTest" type="testcaseclass"/>
+<testsuite name="test.unittest.parts:XMLAPartTest" type="testcaseclass"/>
+<testsuite name="test.unittest.parts:XMLAPropertyPartTest" type="testcaseclass"/>
+<testsuite name="test.unittest.parts:XMLARestrictionsPartTest" type="testcaseclass"/>
+<testsuite name="test.unittest.rpc:XMLAServiceTest" type="testcaseclass"/>
+<testsuite name="test.unittest.utils:SOAPUtilTest" type="testcaseclass"/>
+</testsuite>
+<portNumber value="8765" />
+</testrun>

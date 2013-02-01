@@ -1,4 +1,7 @@
-XMLALibrary
-===========
+# XMLA Service for Flex (version 1.0)
 
-XMLAService for Flex
+This is a XMLA WSDL implementation for Flex
+
+
+## License
+[MIT License] (http://opensource.org/licenses/MIT)
